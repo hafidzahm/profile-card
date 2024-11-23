@@ -1,15 +1,7 @@
 const socialMedia = [
   {
-    icon: "facebook",
-    href: "",
-  },
-  {
     icon: "instagram",
     href: "https://www.instagram.com/hafizh.dev/",
-  },
-  {
-    icon: "twitter",
-    href: "",
   },
   {
     icon: "linkedin",

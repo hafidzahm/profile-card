@@ -2,9 +2,8 @@ import BadgeItem from "./BadgeItem";
 const BadgeContainer = ({ nameBadge }) => {
   return (
     <div className="buttons">
-      <BadgeItem nameBadge={"PhD"} />
-      <BadgeItem nameBadge={"Meowengineer"} />
-      <BadgeItem nameBadge={"3DGeeek"} />
+      <BadgeItem nameBadge={"Front End Developer"} />
+      <BadgeItem nameBadge={"React js"} />
     </div>
   );
 };

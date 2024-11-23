@@ -1,5 +1,5 @@
 import CardTop from "./CardTop";
-import CardBottom from "./CardButton";
+import CardBottom from "./CardBottom";
 const Card = () => {
   return (
     <div className="card">

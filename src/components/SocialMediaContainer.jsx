@@ -1,20 +1,20 @@
 import SocialMediaButton from "./SocialMediaButton";
+import ProjectButton from "./ProjectButton";
 import socialMedia from "./socialMedia";
+import project from "./project";
 const SocialMediaContainer = ({ icon }) => {
-  const middleIndex = Math.floor(socialMedia.length / 2);
-  const socialLeftPosition = socialMedia.slice(0, middleIndex);
-  const socialRightPosition = socialMedia.slice(middleIndex);
+
 
   return (
     <>
       <div className="social-buttons">
-        {socialLeftPosition.map((data, index) => (
-          <SocialMediaButton icon={data.icon} key={index} link={data.href} />
+        {project.map((data, index) => (
+          <ProjectButton icon={data.icon} key={index} link={data.href} />
         ))}
       </div>
 
       <div className="social-buttons right">
-        {socialRightPosition.map((data, index) => (
+        {socialMedia.map((data, index) => (
           <SocialMediaButton icon={data.icon} key={index} link={data.href} />
         ))}
       </div>

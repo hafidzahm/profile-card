@@ -6,9 +6,9 @@ const CardTop = ({ icon }) => {
 
       <div className="text">
         <div className="name-wrapper">
-          <div className="name">Black Cat</div>
+          <div className="name">Abdul Hafizh Mahfudin</div>
         </div>
-        <div className="title">Meowengineer</div>
+        <div className="title">Front End Developer</div>
       </div>
     </div>
   );
