@@ -1,23 +1,22 @@
-const SocialMediaButton = () => {
+const SocialMediaButton = ({icon}) => {
   return (
     <button>
-      <i className="fa fa-discord"></i>
+      <i className={`fa-brands fa-${icon}`}></i>
     </button>
-
   )
 }
-const CardTop = () => {
+const CardTop = ({icon}) => {
   return (
     <div className="top" >
       <div className="social-buttons right">
-        <SocialMediaButton/>
-        <SocialMediaButton/>
+        <SocialMediaButton icon='facebook'/>
+        <SocialMediaButton icon='twitter'/>
+        <SocialMediaButton icon='instagram'/>
       </div>
 
       <div className="social-buttons">
-        <button><i>GH</i></button>
-        <button><i>X</i></button>
-        <button><i>X</i></button>
+      <SocialMediaButton icon='github'/>
+      <SocialMediaButton icon='linkedin'/>
       </div>
 
       <div className="text">
