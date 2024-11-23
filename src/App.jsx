@@ -1,23 +1,51 @@
-const SocialMediaButton = ({icon}) => {
+const socialMedia = [
+  {
+    icon:'facebook',
+    href:''
+  },
+  {
+    icon:'instagram',
+    href:'https://www.instagram.com/hafizh.dev/'
+  },
+  {
+    icon:'twitter',
+    href:''
+  },
+  {
+    icon:'linkedin',
+    href:'https://www.linkedin.com/in/abdul-hafizh-mahfudin-a98a23248' 
+  },
+  {
+    icon:'github',
+    href:'https://github.com/hafidzahm' 
+  }
+]
+const SocialMediaButton = ({icon, link}) => {
   return (
-    <button>
+    <button onClick={() => window.open(link, '_blank')}>
       <i className={`fa-brands fa-${icon}`}></i>
     </button>
   )
 }
 
 const SocialMediaContainer = ({icon}) => {
+  const middleIndex = Math.floor(socialMedia.length / 2);
+  const socialLeftPosition = socialMedia.slice(0, middleIndex)
+  const socialRightPosition = socialMedia.slice(middleIndex)
+
   return (
     <>
+        <div className="social-buttons">
+          {socialLeftPosition.map((data, index) => (
+            <SocialMediaButton icon={data.icon} key={index} link={data.href}/>
+          ))}
+        </div>
+
         <div className="social-buttons right">
-        <SocialMediaButton icon='facebook' />
-        <SocialMediaButton icon='twitter' />
-        <SocialMediaButton icon='instagram'/>  
-    </div>
-    <div className="social-buttons">
-              <SocialMediaButton icon='github'/>
-        <SocialMediaButton icon='linkedin'/>
-    </div>
+          {socialRightPosition.map((data, index) => (
+            <SocialMediaButton icon={data.icon} key={index} link={data.href}/>
+          ))}
+        </div>
     </>
   )
 }
