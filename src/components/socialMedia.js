@@ -5,7 +5,7 @@ const socialMedia = [
   },
   {
     icon: "linkedin",
-    href: "https://www.linkedin.com/in/abdul-hafizh-mahfudin-a98a23248",
+    href: "https://www.linkedin.com/in/hafizxh/",
   },
   {
     icon: "github",
