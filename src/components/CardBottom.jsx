@@ -6,9 +6,8 @@ const CardBottom = (nameBadge) => {
         <p>
           Hello, I'm Hafizh. I am interested for learning FE/BE. I'm also
           learning FE Expert Developer, React Basic, and Basic Back End
-          Developer at Dicoding Indonesia Scholarship. Just right now, i am
-          working for 'Yummy-YUM' project applied PWAs application, responsive
-          mobile-first design, and accessibility-approved features. Also, i'm taking a Fullstack Developer from Coursera x Prakerja, and React Basic from CODEPOLITAN
+          Developer at Dicoding Indonesia Scholarship. Just right now, i'm part
+          of an awardee on Fullstack Developer from Zakatloop x Hacktiv8.
         </p>
       </div>
 
