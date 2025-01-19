@@ -7,7 +7,7 @@ const CardBottom = (nameBadge) => {
           Hello, I'm Hafizh. I am interested for learning FE/BE. I'm also
           learning FE Expert Developer, React Basic, and Basic Back End
           Developer at Dicoding Indonesia Scholarship. Just right now, i'm part
-          of an awardee on Fullstack Developer from Zakatloop x Hacktiv8.
+          of an awardee on Fullstack Developer from Zakatloop x Hacktiv8. Click the file icon on upper left-in case you're curious on my CV.
         </p>
       </div>
 
