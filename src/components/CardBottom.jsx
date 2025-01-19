@@ -8,8 +8,7 @@ const CardBottom = (nameBadge) => {
           learning FE Expert Developer from DBS Foundation Coding Camp, a
           collaboration bootcamp with Dicoding Indonesia. Beside that, i also
           learn Basic React from iDCamp x Dicoding and CODEPOLITAN, and Basic BE
-          with AWS X Dicoding Indonesia too. Just right now, i'm part of an
-          awardee on Fullstack Developer from Zakatloop x Hacktiv8. Click the
+          with AWS X Dicoding Indonesia too. Click the
           file icon on upper left-in case you're curious on my CV.
         </p>
       </div>
