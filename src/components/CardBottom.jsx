@@ -4,11 +4,12 @@ const CardBottom = (nameBadge) => {
     <div className="bottom">
       <div className="desc">
         <p>
-          Hello, I'm Hafizh. I am interested for learning FE/BE. I'm also
-          learning FE Expert Developer, React Basic, and Basic Back End
-          Developer at Dicoding Indonesia Scholarship. Just right now, i am
-          working for 'Yummy-YUM' project applied PWAs application, responsive
-          mobile-first design, and accessibility-approved features. Also, i'm taking a Fullstack Developer from Coursera x Prakerja, and React Basic from CODEPOLITAN
+          Hello, I'm Hafizh. I am interested for learning FE/BE. I'm finished
+          learning FE Expert Developer from DBS Foundation Coding Camp, a
+          collaboration bootcamp with Dicoding Indonesia. Beside that, i also
+          learn Basic React from iDCamp x Dicoding and CODEPOLITAN, and Basic BE
+          with AWS X Dicoding Indonesia too. Click the
+          file icon on upper left-in case you're curious on my CV.
         </p>
       </div>
 
